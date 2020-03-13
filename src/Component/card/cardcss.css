@@ -1,0 +1,15 @@
+#cards {
+    
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+
+  @media screen and (max-width:766px) {
+    #cards {
+       margin: 10px;
+    }
+  }
