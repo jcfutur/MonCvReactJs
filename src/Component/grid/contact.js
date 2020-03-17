@@ -50,7 +50,7 @@ return (
             </MDBCol>
             <MDBCol md="9">
                 <MDBCardTitle id="tel">
-                    Lille/Amiens/Rouen
+                    France
                 </MDBCardTitle>
             </MDBCol>
           </MDBRow>
