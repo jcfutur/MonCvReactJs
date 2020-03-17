@@ -26,7 +26,7 @@ return (
       </MDBCard>
     </MDBCol>
     <MDBCol md="5">
-      <MDBCard style={{ width: "26rem" }}>
+      <MDBCard style={{ width: "28rem" }}>
         <MDBCardBody>
         <MDBRow>
           <MDBCol md="2">
@@ -42,7 +42,7 @@ return (
       </MDBCard>
     </MDBCol>
     <MDBCol md="3">
-      <MDBCard style={{ width: "22rem" }}>
+      <MDBCard style={{ width: "20rem" }}>
         <MDBCardBody>
         <MDBRow>
             <MDBCol md="2">
