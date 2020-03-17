@@ -60,7 +60,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     <a className="navLink" href="#Parcour">Mon Parcour</a>
                   </MDBNavItem>
                   <MDBNavItem className="navL">
-                    <a className="navLink" href="#Interets">Interets</a>
+                    <a className="navLink" href="#interets">Interets</a>
                   </MDBNavItem>
                   <MDBNavItem className="navL">
                     <a className="navLink" href="#Contact">Contact</a>
