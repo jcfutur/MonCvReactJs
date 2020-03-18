@@ -22,17 +22,17 @@ return (
 
   <MDBRow>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="rotateInUpRight" duration="2s" delay="0s">
         <CardJavaScript/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="rotateInUpLeft" duration="2s" delay="0s">
         <CardHtml/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="rotateInDownRight" duration="2s" delay="0s">
         <CardCss/>
       </MDBAnimation>
     </MDBCol>
@@ -40,17 +40,17 @@ return (
   
   <MDBRow>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardReact/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardJava/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardMySql/>
       </MDBAnimation>
     </MDBCol>
@@ -58,17 +58,17 @@ return (
 
   <MDBRow>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardSpringboot/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardGit/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <CardJHipster/>
       </MDBAnimation>
     </MDBCol>
@@ -76,12 +76,12 @@ return (
 
   <MDBRow>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="rotateInUpRight" duration="2s" delay="0s">
         <CardNode/>
       </MDBAnimation>
     </MDBCol>
     <MDBCol md="4">
-      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+      <MDBAnimation reveal type="rotateInUpLeft" duration="2s" delay="0s">
         <CardMDB/>
       </MDBAnimation>
     </MDBCol>
