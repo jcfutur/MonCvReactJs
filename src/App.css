@@ -54,6 +54,13 @@
 #tel {
   padding-top: 12px;
   font-weight: bold;
+  text-align: center;
+}
+
+#tel2 {
+  padding-top: 12px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
