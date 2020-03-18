@@ -1,5 +1,8 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { MDBNavbar, 
+  MDBAnimation,
+  MDBNavbarBrand, 
+  MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -70,9 +73,10 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </MDBNavbar>
           </Router>
         </header>
-
+        <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <main>
           <MDBContainer className="text-center my-5" id="about">
+          
             <br id="Apropos"/>
               <h1 className="font-weight-bold my-5 text-center">A propos</h1>
             <br/>
@@ -86,14 +90,17 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </p>
           </MDBContainer>
         </main>
+        </MDBAnimation>
         <br id="Competence"/>
         <h1 className="font-weight-bold my-5 text-center">Technologies Utilisées</h1>
         <br/>
         <GridExamplesPage2/>
         <br id="Realisation"/>
+        <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
         <h1 className="font-weight-bold my-5 text-center">Realisation</h1>
         <br/>
         <LightboxPage/>
+        </MDBAnimation>
         <br id="Parcour"/>
         <h1 className="font-weight-bold my-5 text-center">Experiences</h1>
         <br/>

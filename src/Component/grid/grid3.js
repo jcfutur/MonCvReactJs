@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
 import CardReact from './../card/cardReact.js';
 import CardHtml from './../card/cardHtml.js';
 import CardCss from './../card/cardCss.js';
@@ -19,25 +19,74 @@ import 'mdbreact/dist/css/mdb.css';
 const gridExamplesPage2 = () => {
 return (
 <MDBContainer>
+
   <MDBRow>
-    <MDBCol md="4"><CardJavaScript/></MDBCol>
-    <MDBCol md="4"><CardHtml/></MDBCol>
-    <MDBCol md="4"><CardCss/></MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardJavaScript/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardHtml/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardCss/>
+      </MDBAnimation>
+    </MDBCol>
   </MDBRow>
+  
   <MDBRow>
-    <MDBCol md="4"><CardReact/></MDBCol>
-    <MDBCol md="4"><CardJava/></MDBCol>
-    <MDBCol md="4"><CardMySql/></MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardReact/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardJava/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardMySql/>
+      </MDBAnimation>
+    </MDBCol>
   </MDBRow>
+
   <MDBRow>
-    <MDBCol md="4"><CardSpringboot/></MDBCol>
-    <MDBCol md="4"><CardGit/></MDBCol>
-    <MDBCol md="4"><CardJHipster/></MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardSpringboot/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardGit/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardJHipster/>
+      </MDBAnimation>
+    </MDBCol>
   </MDBRow>
+
   <MDBRow>
-    <MDBCol md="4"><CardNode/></MDBCol>
-    <MDBCol md="4"><CardMDB/></MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardNode/>
+      </MDBAnimation>
+    </MDBCol>
+    <MDBCol md="4">
+      <MDBAnimation reveal type="fadeInLeft" duration="2s" delay="0s">
+        <CardMDB/>
+      </MDBAnimation>
+    </MDBCol>
   </MDBRow>
+
 </MDBContainer>
 );
 }
