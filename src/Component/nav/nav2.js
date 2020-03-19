@@ -91,32 +91,42 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           </MDBContainer>
         </main>
         </MDBAnimation>
-        <br id="Competence"/>
-        <h1 className="font-weight-bold my-5 text-center">Technologies Utilisées</h1>
-        <br/>
-        <GridExamplesPage2/>
-        <br id="Realisation"/>
-        <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
-        <h1 className="font-weight-bold my-5 text-center">Realisation</h1>
-        <br/>
-        <LightboxPage/>
-        </MDBAnimation>
+        <div className="fond">
+          <br id="Competence"/>
+          <h1 className="font-weight-bold my-5 text-center">Technologies Utilisées</h1>
+          <br/>
+          <GridExamplesPage2/>
+        </div>
+        <div>
+          <br id="Realisation"/>
+          <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
+          <h1 className="font-weight-bold my-5 text-center">Realisation</h1>
+          <br/>
+          <LightboxPage/>
+          </MDBAnimation>
+        </div>
+        <div className="fond">
         <br id="Parcour"/>
         <h1 className="font-weight-bold my-5 text-center">Experiences</h1>
         <br/>
         <Experiences/>
-        <br id="interets"/>
-        <h1 className="font-weight-bold my-3 text-center">Centre d'interets</h1>
-        <h6 className="text-center">A part la programmation biensur</h6>
-        <br/>
-        <Interets/>
-        <br id="Contact"/>
-        <h1 className="font-weight-bold my-3 text-center">Contact</h1>
-        <h6 className="text-center">N'hesitez pas !</h6>
-        <br/>
-        <Contact/>
-        <br/>
-        <FooterPage/>
+        </div>
+        <div>
+          <br id="interets"/>
+          <h1 className="font-weight-bold my-3 text-center">Centre d'interets</h1>
+          <h6 className="text-center">A part la programmation biensur</h6>
+          <br/>
+          <Interets/>
+        </div>
+        <div className="fond">
+          <br id="Contact"/>
+          <h1 className="font-weight-bold my-3 text-center">Contact</h1>
+          <h6 className="text-center">N'hesitez pas !</h6>
+          <br/>
+          <Contact/>
+          <br/>
+          <FooterPage/>
+        </div>
       </div>
       
     );
