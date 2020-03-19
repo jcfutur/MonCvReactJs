@@ -80,7 +80,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           
             <br id="Apropos"/>
               <h1 className="font-weight-bold my-5 text-center">A propos</h1>
-            <br/>
+            
             <p align="justify">
               Développeur web curieux, autonome, rigoureux, j'aime les applications simples, rapides et efficaces.<br/><br/>
               Titulaire d’un Titre Professionnel de Développeur Web et Web Mobile. Après une reconversion Professionnelle,
@@ -92,19 +92,23 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           </MDBContainer>
         </main>
         </MDBAnimation>
+        <br/>
         <div className="fond">
           <br id="Competence"/>
           <h1 className="font-weight-bold my-5 text-center">Technologies Utilisées</h1>
           <br/>
           <GridExamplesPage2/>
+          <br/>
+          <br/>
         </div>
         <div>
           <br id="Realisation"/>
           <MDBAnimation reveal type="fadeInUp" duration="2s" delay="0s">
           <h1 className="font-weight-bold my-5 text-center">Realisation</h1>
-          <br/>
           <LightboxPage/>
           </MDBAnimation>
+          <br/>
+          <br/>
         </div>
         <div className="fond">
         <br id="Parcour"/>
@@ -115,9 +119,11 @@ class FullPageIntroWithFixedNavbar extends React.Component {
         <div>
           <br id="interets"/>
           <h1 className="font-weight-bold my-3 text-center">Centre d'interets</h1>
-          <h6 className="text-center">A part la programmation biensur</h6>
+          <h6 className="text-center">un peu geek sur les bords</h6>
           <br/>
           <Interets/>
+          <br/>
+          <br/>
         </div>
         <div className="fond">
           <br id="Contact"/>
