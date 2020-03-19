@@ -8,7 +8,7 @@ state = {
   isOpen: false,
   images: [
     require('../../Helpers/image/golf.jpg'),
-    require('../../Helpers/image/prog.jpg'),
+    require('../../Helpers/image/cuisine.jpg'),
     require('../../Helpers/image/f1.jpg'),
   ]
 }
