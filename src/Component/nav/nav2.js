@@ -81,12 +81,12 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               <h1 className="font-weight-bold my-5 text-center">A propos</h1>
             <br/>
             <p align="justify">
-              Apres une reconversion professionnelle je suis maintenant titulaire d’un Titre Professionnel de Développeur Web et Web Mobile.
-              je suis sûr que mon expérience dans le milieu commercial peut être un plus pour la suite de mon parcours.
-              je recherche un Poste de développeur au sein d'une société ou je pourrai pleinement m'épanouir en exerçant cette profession. 
-              Mon parcours, ainsi que ma passion pour internet et l'informatique, m'ont permis d'acquérir les connaissances techniques et pratiques indispensables à l'exercice de ce métier. 
-              je souhaiterais intégrer une équipe de développeurs à taille humaine et mettre à profit mes acquis
-              et compétences afin de mener à bien les missions que vous voudrez bien me confier. 
+              Développeur web curieux, autonome, rigoureux, j'aime les applications simples, rapides et efficaces.<br/><br/>
+              Titulaire d’un Titre Professionnel de Développeur Web et Web Mobile. Après une reconversion Professionnelle,
+              suite à une expérience de commercial, je sais que mon expérience dans ce milieu m'aidera pour la suite de ma carrière.<br/>
+              Mon parcours, ainsi que ma passion pour internet et l'informatique, m'ont permis d'acquérir les connaissances techniques
+              et pratiques indispensables à l'exercice de ce métier.<br/><br/>
+              Actuellement à la recherche d'un poste, je sais travailler en Méthode Agile je prends plaisir à relever de nouveaux challenges. 
             </p>
           </MDBContainer>
         </main>

@@ -12,8 +12,8 @@ const Experiences = () => {
             <p>
               Technologies utilisées : HTML, CSS, JS, REACT.JS, JAVA JEE, SPRING, MySQL...<br/>
               Frameworks : Hibernate, Mavens, Git, Jipster..<br/>
-              Autres outils : slack, trello, methode agile, GitLab..<br/>
-              Stage : 3 mois chez INSY2S : participation sur un proget en cours, application web avec un front en REACT.JS et un back en Java
+              Autres outils : slack, trello, methode Agile, GitLab..<br/>
+              Stage : 3 mois chez INSY2S : participation sur un projet en cours, application web avec un front en REACT.JS et un back en Java
               Certification openclassroom : utilisez Git et GitHub, coder en JavaScript, Gerez un projet avec une equipe Scrum<br/>
             </p>
           </td>
