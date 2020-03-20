@@ -1,16 +1,16 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
-import CardReact from './../card/cardReact.js';
-import CardHtml from './../card/cardHtml.js';
-import CardCss from './../card/cardCss.js';
-import CardJavaScript from './../card/cardJavaScript.js';
-import CardJava from './../card/cardJava.js';
-import CardMySql from './../card/cardMysql.js';
-import CardSpringboot from './../card/cardSpringboot.js';
-import CardGit from './../card/cardGit.js';
-import CardJHipster from './../card/cardJhipster.js';
+import CardReact from '../card/cardReact.js';
+import CardHtml from '../card/cardHtml.js';
+import CardCss from '../card/cardCss.js';
+import CardJavaScript from '../card/cardJavaScript.js';
+import CardJava from '../card/cardJava.js';
+import CardMySql from '../card/cardMysql.js';
+import CardSpringboot from '../card/cardSpringboot.js';
+import CardGit from '../card/cardGit.js';
+import CardJHipster from '../card/cardJhipster.js';
 //import CardNode from './../card/cardNode.js';
-import CardMDB from './../card/cardMdb.js';
+import CardMDB from '../card/cardMdb.js';
 //import './App.css'; //Import here your file style
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';

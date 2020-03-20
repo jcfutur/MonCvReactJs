@@ -14,7 +14,7 @@ const Experiences = () => {
               Frameworks : Hibernate, Mavens, Git, Jipster..<br/>
               Autres outils : slack, trello, methode Agile, GitLab..<br/>
               Stage : 3 mois chez INSY2S : participation sur un projet en cours, application web avec un front en REACT.JS et un back en Java
-              Certification openclassroom : utilisez Git et GitHub, coder en JavaScript, Gerez un projet avec une equipe Scrum<br/>
+              Certification openclassroom : utiliser Git et GitHub, coder en JavaScript, Gerer un projet avec une equipe Scrum<br/>
             </p>
           </td>
         </tr>

@@ -8,12 +8,12 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import GridExamplesPage2 from './../grid/grid3.js';
-import FooterPage from './../footer/footer.js';
-import LightboxPage from './../grid/grid2.js';
+import GridExamplesPage2 from '../grid/grid3.js';
+import FooterPage from '../footer/footer.js';
+import LightboxPage from '../grid/grid2.js';
 import Experiences from '../experience/experiences.js';
-import Interets from './../grid/interets.js';
-import Contact from './../grid/contact.js';
+import Interets from '../grid/interets.js';
+import Contact from '../grid/contact.js';
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -87,7 +87,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               suite à une expérience de commercial, je sais que mon expérience dans ce milieu m'aidera pour la suite de ma carrière.<br/>
               Mon parcours, ainsi que ma passion pour internet et l'informatique, m'ont permis d'acquérir les connaissances techniques
               et pratiques indispensables à l'exercice de ce métier.<br/><br/>
-              Actuellement à la recherche d'un poste, je sais travailler en Méthode Agile je prends plaisir à relever de nouveaux challenges. 
+              Actuellement à la recherche d'un poste, je sais travailler en Méthode Agile et je prends plaisir à relever de nouveaux challenges. 
             </p>
           </MDBContainer>
         </main>
