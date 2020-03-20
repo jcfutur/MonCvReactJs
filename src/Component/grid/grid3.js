@@ -9,8 +9,8 @@ import CardMySql from './../card/cardMysql.js';
 import CardSpringboot from './../card/cardSpringboot.js';
 import CardGit from './../card/cardGit.js';
 import CardJHipster from './../card/cardJhipster.js';
-import CardNode from './../card/cardNode.js';
-//import CardMDB from './../card/cardMdb.js';
+//import CardNode from './../card/cardNode.js';
+import CardMDB from './../card/cardMdb.js';
 //import './App.css'; //Import here your file style
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -75,12 +75,12 @@ return (
   </MDBRow>
 
   <MDBRow>
+    
     <MDBCol md="4">
-      <MDBAnimation reveal type="rotateInUpRight" duration="2s" delay="0s">
-        <CardNode/>
+      <MDBAnimation reveal type="rotateInUpLeft" duration="2s" delay="0s">
+        <CardMDB/>
       </MDBAnimation>
     </MDBCol>
-    
   </MDBRow>
 
 </MDBContainer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle,  MDBProgress, MDBCol } from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle,  MDBProgress, MDBCol, MDBCardText } from 'mdbreact';
 import './cardcss.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -13,6 +13,7 @@ const CardExample = () => {
         <MDBCardBody>
           <MDBCardTitle className="text-center">Card title</MDBCardTitle>
           <MDBProgress value={60} className="my-2" />
+          <MDBCardText>maitrise : 60%</MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
