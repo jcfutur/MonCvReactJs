@@ -12,8 +12,8 @@ const CardJHipster = () => {
         <MDBCardImage className="img-fluid" src={require('../../Helpers/image/jhipster.png')}  waves />
         <MDBCardBody>
           <MDBCardTitle className="text-center">JHipster</MDBCardTitle>
-          <MDBProgress value={90} className="my-2" />
-          <MDBCardText>maitrise : 90%</MDBCardText>
+          <MDBProgress value={55} className="my-2" />
+          <MDBCardText>maitrise : 55%</MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
