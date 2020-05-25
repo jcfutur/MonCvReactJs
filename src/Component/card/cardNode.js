@@ -17,7 +17,7 @@ const CardNode = () => {
         <MDBCardBody>
           <MDBCardTitle className="text-center">Node js</MDBCardTitle>
           <MDBProgress value={80} className="my-2" />
-          <MDBCardText>maitrise : 80%</MDBCardText>
+          <MDBCardText>maitrise : 50%</MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
