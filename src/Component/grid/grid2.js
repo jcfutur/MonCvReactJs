@@ -9,7 +9,7 @@ state = {
   images: [
     require('../../Helpers/image/elmadmin.png'),
     require('../../Helpers/image/elmetape.png'),
-    require('../../Helpers/image/elmdemande.png'),
+    require('../../Helpers/image/ShoppingList.png'),
   ]
 }
 
@@ -40,6 +40,9 @@ const { photoIndex, isOpen, images } = this.state;
         <div className="mdb-lightbox">
           <MDBRow>
             {this.renderImages()}
+          </MDBRow>
+          <MDBRow>
+            {}
           </MDBRow>
         </div>
         {isOpen && (
