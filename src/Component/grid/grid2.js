@@ -1,69 +1,44 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import Lightbox from "react-image-lightbox";
+//import Lightbox from "react-image-lightbox";
+import './gridcss.css';
 
 class LightboxPage extends React.Component {
 state = {
-  photoIndex: 0,
-  isOpen: false,
   images: [
     require('../../Helpers/image/elmadmin.png'),
     require('../../Helpers/image/elmetape.png'),
     require('../../Helpers/image/ShoppingList.png'),
-  ]
-}
-
-renderImages = () => {
-  let photoIndex = -1;
-  const { images } = this.state;
-
-return images.map(imageSrc => {
-  photoIndex++;
-  const privateKey = photoIndex;
-  return (
-    <MDBCol md="4" key={photoIndex}>
-      <figure>
-        <img src={imageSrc} alt="Gallery" className="img-fluid" onClick={()=>
-        this.setState({ photoIndex: privateKey, isOpen: true })
-        }
-        />
-      </figure>
-    </MDBCol>
-    );
-  })
+  ],
+  image1 : require('../../Helpers/image/ShoppingList.png'),
+  image2 : require('../../Helpers/image/elm.png'),
 }
 
 render() {
-const { photoIndex, isOpen, images } = this.state;
   return (
       <MDBContainer className="mt-5">
         <div className="mdb-lightbox">
           <MDBRow>
-            {this.renderImages()}
-          </MDBRow>
-          <MDBRow>
-            {}
+            <MDBCol className="boxrea2">
+              <div className="boxrea">
+                <a href="https://the-list-275916.ew.r.appspot.com">
+                <h5 className="titre">Application ShoppingList <br/>front en REACT.JS et back en NODE.JS</h5>
+                  <figure className="shadow-box-example hoverable">
+                    <img src={this.state.image1} alt="Gallery" className="img-fluid"/>
+                  </figure>
+                </a>
+              </div>
+            </MDBCol>
+            <MDBCol className="boxrea2">
+              <div className="boxrea">
+                <h5 className="titre">Site intranet pour la gestion de formation <br/>front en REACT.JS et back en JAVA</h5>
+                  <figure>
+                    <img src={this.state.image2} alt="Gallery" className="img-fluid"/>
+                  </figure>
+              </div>
+            </MDBCol>
           </MDBRow>
         </div>
-        {isOpen && (
-        <Lightbox
-          mainSrc={images[photoIndex]}
-          nextSrc={images[(photoIndex + 1) % images.length]}
-          prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-          imageTitle={photoIndex + 1 + "/" + images.length}
-          onCloseRequest={() => this.setState({ isOpen: false })}
-          onMovePrevRequest={() =>
-            this.setState({
-              photoIndex: (photoIndex + images.length - 1) % images.length
-            })
-          }
-          onMoveNextRequest={() =>
-            this.setState({
-              photoIndex: (photoIndex + 1) % images.length
-            })
-            }
-          />
-        )}
       </MDBContainer>
     );
   }

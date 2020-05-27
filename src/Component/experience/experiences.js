@@ -10,7 +10,7 @@ const Experiences = () => {
           <td>
             <p className="titre"> Juin 2019 - Mars 2020 Formation Développeur Web et Web Mobile - AFPA Roubaix  (bac +2)</p>
             <p>
-              Technologies utilisées : HTML, CSS, JS, REACT.JS, JAVA JEE, SPRING, MySQL...<br/>
+              Technologies utilisées : HTML, CSS, JS, REACT.JS, NODE.JS, JAVA JEE, SPRING, MySQL, MongoDB...<br/>
               Frameworks : Hibernate, Mavens, Git, Jipster..<br/>
               Autres outils : slack, trello, methode Agile, GitLab..<br/>
               Stage : 3 mois chez INSY2S : participation sur un projet en cours, application web avec un front en REACT.JS et un back en Java
